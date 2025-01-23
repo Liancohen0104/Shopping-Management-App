@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/Login">
+
+    <fragment
+        android:id="@+id/Login"
+        android:name="com.example.myapplication.fragments.LoginPage"
+        android:label="fragment_1"
+        tools:layout="@layout/login_page" >
+        <action
+            android:id="@+id/action_fragment1_to_fragment2"
+            app:destination="@id/Register" />
+        <action
+            android:id="@+id/action_fragment1_to_fragment3"
+            app:destination="@id/RecycleView" />
+    </fragment>
+    <fragment
+        android:id="@+id/Register"
+        android:name="com.example.myapplication.fragments.RegisterPage"
+        android:label="fragment_2"
+        tools:layout="@layout/register_page" />
+    <fragment
+        android:id="@+id/RecycleView"
+        android:name="com.example.myapplication.fragments.RecycleView"
+        android:label="fragment_3"
+        tools:layout="@layout/recycle_view" >
+        <action
+            android:id="@+id/action_RecycleView_to_Cart"
+            app:destination="@id/Cart" />
+    </fragment>
+    <fragment
+        android:id="@+id/Cart"
+        android:name="com.example.myapplication.fragments.CartPage"
+        android:label="CartPage"
+        tools:layout="@layout/cart_page"/>
+</navigation>

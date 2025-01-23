@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "313421705004",
+    "firebase_url": "https://lian-s-project-default-rtdb.firebaseio.com",
+    "project_id": "lian-s-project",
+    "storage_bucket": "lian-s-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313421705004:android:593d3d4f0a655ad23c8689",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvYTUfPl4qcAMqc0vYIMdQKAM5OvLwKkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
